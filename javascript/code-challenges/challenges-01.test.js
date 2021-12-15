@@ -41,7 +41,11 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 ------------------------------------------------------------------------------------------------ */
 
 const allUpperCase = (arr) => {
-  // Solution code here...
+  arr.forEach( function(item,i) {
+    let temp = item.toUpperCase();
+    arr[i] = temp;
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -55,12 +59,18 @@ Use `forEach` to build a new array of strings, each string modified by the callb
 ------------------------------------------------------------------------------------------------ */
 
 const greeting = (word) => {
-  // Solution code here...
+  let temp = word.toUpperCase() +'!';
+  return temp
 };
 
-const speaker = (words, callback) => {
-  // Solution code here...
-};
+let arr = [];
+
+const speaker = (words,callback) => {
+  words.forEach( function(item,i) {
+    arr.push(callback(item));
+  });
+return arr;
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -78,12 +88,17 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => {
-  // Solution code here...
+let arr1 = [];
+
+const addValues = (arr1, value) => {
+  arr1.push(value);
 };
 
-const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+const addNumbers = (num, arr1, times, callback) => {
+  for (let i = 0; i < times; i++) {
+    callback(arr1,num);
+  }
+  return arr1;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -104,9 +119,19 @@ The inventory is formatted like this:
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
 
+let arr2 =[];
+
 const createList = (availableItems) => {
-  // Solution code here...
+  availableItems.forEach( function(item,i) {
+    if (item.available === true) {
+      // arr2.push(item.name);
+      let temp = item.name;
+      arr2.push(temp);
+    }
+  });
+  return arr2;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 STRETCH - CHALLENGE 7
