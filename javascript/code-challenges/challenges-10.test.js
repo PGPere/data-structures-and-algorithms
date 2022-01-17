@@ -139,20 +139,19 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  const howManyTreats = (arr) => {
-    let result = 0
-    arr.forEach( function(item,idx) {
-      item.items.forEach( function(name,idx) {
-         if (name.name === 'Treats') {
-          result = name.quantity;
+  let result = 0;
+  arr.forEach( function(item) {
+    item.items.forEach( function(name) {
+      if (name.name === 'Treats') {
+        result = name.quantity;
         return result;
-         };
+      }
       return result;
-      });
-    return result;  
     });
     return result;
-    };
+  });
+  return result;
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
