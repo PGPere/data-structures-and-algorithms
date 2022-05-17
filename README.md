@@ -21,3 +21,6 @@ To run your tests
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+- Please find below the link to the README for Code Challenge #1 - reverse-array
+https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-reverse/README.md
