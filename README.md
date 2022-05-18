@@ -24,3 +24,6 @@ To run your tests
 
 - Please find below the link to the README for Code Challenge #1 - reverse-array
 https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-reverse/README.md
+
+- Please find below the link to the README for Code Challenge #2 - array-insert-shift
+https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-shift/README.md
