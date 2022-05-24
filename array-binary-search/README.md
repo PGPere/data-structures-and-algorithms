@@ -4,7 +4,7 @@ Create a function called binarysearch which takes an array and a vlaue as argume
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/4eba81234f62260d748cb19cc254c95d2817f680/array-insert-shift/Code%20Challenge%202.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/864b8fc840695c317e85f61bb3f92a061471fa29/array-binary-search/Code%20Challenge%203.png)
 
 ## Approach & Efficiency
 
