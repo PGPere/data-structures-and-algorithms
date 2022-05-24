@@ -27,3 +27,6 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-reverse
 
 - Please find below the link to the README for Code Challenge #2 - array-insert-shift
 https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-shift/README.md
+
+- Please find beloew the link to the README for Code Challenge #3 - binarysearch
+  https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-binary-search/README.md
