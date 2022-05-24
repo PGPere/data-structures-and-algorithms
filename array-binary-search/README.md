@@ -1,6 +1,6 @@
 # Use BinarySearch to find the index position of a given value
 
-Create a function called array-insert-shift which takes an array and a vlaue as arguments. Do not use any built-in methods. Return a new array that includes the old values plus the new value in the middle of the array.
+Create a function called binarysearch which takes an array and a vlaue as arguments. Do not use any built-in methods. Returns the position of value in the the array.
 
 ## Whiteboard Process
 
