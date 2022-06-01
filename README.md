@@ -30,3 +30,6 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
 
 - Please find beloew the link to the README for Code Challenge #3 - binarysearch
   https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-binary-search/README.md
+  
+- Please find below the link to the README for Code Challenge #5 - linked-list
+  
