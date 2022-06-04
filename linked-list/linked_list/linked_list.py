@@ -23,32 +23,19 @@ class LinkedList:
                 return "True, value exist"
             current = current.next_node
 
-    def to_string(self):
-        pass
+    def __str__(self):
+        to_string = ''
+        if self.head is None:
+            return 'NULL'
+        else:
+            to_string = ''
+            current = self.head
+            while current:
+                if current.value == self.head.value:
+                    to_string = '{ ' + self.head.value + ' } -> '
+                else:
+                    to_string = to_string + '{ ' + current.value + ' } -> '
+                current = current.next_node
 
-    # def travel_ll(self):
-    #     current = self.head
-    #     while current:
-    #         print(current.value)
-    #         current = current.next
+            return to_string + 'NULL'
 
-
-if __name__ == '__main__':
-    ll = LinkedList()
-    ll.insert(5)
-    # LL [5] -> None
-    ll.insert(6)
-    # LL [6] -> [5] -> None
-    ll.insert(7)
-    # LL [7] -> [6] -> [5] -> None
-    # ll = LinkedList()
-    # brendon = Node(1)
-    # brian = Node(2)
-    # jae = Node(3)
-    # jj = Node(4)
-    # roger = Node(5)
-    # brendon.next = brian
-    # brian.next = jae
-    # jae.next = jj
-    # ll.head = brendon
-    # ll.travel_ll()

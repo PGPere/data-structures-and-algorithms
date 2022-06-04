@@ -1,16 +1,7 @@
-# Code Challenge: Class 05: Linked List Implementation
+# Singly Linked List
+Create a Note class and Linked List Class. Note Class will have a pointer to next node. Linked List Class will have a head property and empty list upon instantiation.
 
-## Features
-
-### Node
-
-Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
-
-### Linked List
-
-Create a Linked List class
-Within your Linked List class, include a head property.
-Upon instantiation, an empty Linked List should be created.
+## Challenge
 
 The class should contain the following methods:
 
@@ -28,3 +19,8 @@ Indicates whether that value exists as a Node’s value somewhere within the lis
 Arguments: none
 Returns: a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
+
+## Approach & Efficiency
+Used the traverse method for two of the functions.  Big O space/time is O(n).
+
+
