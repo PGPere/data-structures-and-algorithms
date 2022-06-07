@@ -1,6 +1,6 @@
 import pytest
 
-from linked_list_insertion import LinkedList
+from linked_list_insertions.linked_list_insertion import LinkedList
 
 
 def test_exists():
