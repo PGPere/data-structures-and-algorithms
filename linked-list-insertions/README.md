@@ -4,7 +4,7 @@ Extend a Linked List to allow various insertion methods. Methods include: Append
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/c7734d82508515aaf9679d962aaa7b486f22a0a4/array-reverse/Code%20Challenge%201.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/b178d4a508d8e4c3aed46f34ede9dce127cf0ce0/linked-list-insertions/image.png)
 
 ## Approach & Efficiency
 
