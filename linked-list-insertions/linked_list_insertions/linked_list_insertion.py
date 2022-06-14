@@ -39,11 +39,10 @@ class LinkedList:
             return False
 
         while current:
-            if current.value != value:
-                return False
-            elif current.value == value:
+            if current.value == value:
                 return True
             current = current.next_node
+        return False
 
     def __str__(self):
         to_string = ''
@@ -87,7 +86,7 @@ class LinkedList:
         # tt = TargetError()
 
         if self.includes(target) == False:
-            raise TargetError()
+            raise TargetError
 
         if not self.head:
             return
