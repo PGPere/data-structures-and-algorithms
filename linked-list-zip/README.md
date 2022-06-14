@@ -4,7 +4,7 @@ Create a method to zip two linked lists.
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/b178d4a508d8e4c3aed46f34ede9dce127cf0ce0/linked-list-insertions/image.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/f242ddf643057bc2828acaad3e03da9636a64ecd/linked-list-zip/Screen%20Shot%202022-06-13%20at%208.44.33%20PM.png)
 
 ## Approach & Efficiency
 
