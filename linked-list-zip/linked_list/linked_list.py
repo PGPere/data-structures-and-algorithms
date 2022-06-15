@@ -53,9 +53,10 @@ class LinkedList:
             current = self.head
             while current:
                 if current.value == self.head.value:
-                    to_string = '{ ' + self.head.value + ' } -> '
+                    to_string = '{ ' + str(self.head.value) + ' } -> '
                 else:
-                    to_string = to_string + '{ ' + current.value + ' } -> '
+                    to_string = to_string + \
+                        '{ ' + str(current.value) + ' } -> '
                 current = current.next_node
 
             return to_string + 'NULL'
@@ -148,3 +149,27 @@ class LinkedList:
             current.next_node = node
 
         return node
+
+    def kth_from_end(self, k):
+
+        current = self.head
+
+        if not self.head:
+            return
+
+        number_nodes = 0
+
+        while current:
+            current = current.next_node
+            number_nodes = number_nodes + 1
+
+        if number_nodes-1 < k or k < 0:
+            raise TargetError
+
+        if number_nodes >= k:
+
+            current = self.head
+            for num in range(number_nodes - k-1):
+                current = current.next_node
+
+        return current.value
