@@ -9,5 +9,3 @@ Create a method to zip two linked lists.
 ## Approach & Efficiency
 
 Our approach is to modify the first linked list by changing the pointers.  We will do this through the use and assginment of temporary pointers.
-
-Need to complete testing.
