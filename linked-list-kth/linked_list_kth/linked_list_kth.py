@@ -39,11 +39,10 @@ class LinkedList:
             return False
 
         while current:
-            if current.value != value:
-                return False
-            elif current.value == value:
+            if current.value == value:
                 return True
             current = current.next_node
+        return False
 
     def __str__(self):
         to_string = ''
@@ -87,7 +86,7 @@ class LinkedList:
         # tt = TargetError()
 
         if self.includes(target) == False:
-            raise TargetError()
+            raise TargetError
 
         if not self.head:
             return
@@ -152,19 +151,24 @@ class LinkedList:
 
     def kth_from_end(self, k):
 
-        number_nodes = 0
-
         current = self.head
+
+        if not self.head:
+            return
+
+        number_nodes = 0
 
         while current:
             current = current.next_node
             number_nodes = number_nodes + 1
 
+        if number_nodes-1 < k or k < 0:
+            raise TargetError
+
         if number_nodes >= k:
 
             current = self.head
-
-            for num in range(number_nodes - k):
+            for num in range(number_nodes - k-1):
                 current = current.next_node
 
-        return current
+        return current.value

@@ -10,5 +10,3 @@ Return the node’s value that is k places from the tail of the linked list.
 ## Approach & Efficiency
 
 Our approach is to traverse the Linked List and insert the value depending on the argument location.
-
-WIP
