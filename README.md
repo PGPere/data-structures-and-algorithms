@@ -42,3 +42,6 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
   
 - Please find below the link to the README for Code Challenge #8 - linked-list-zip
   https://github.com/PGPere/data-structures-and-algorithms/blob/main/linked-list-zip/README.md
+  
+- Please find below the link to the README for Code Challenge #10 - stack-and-queue 
+  https://github.com/PGPere/data-structures-and-algorithms/blob/main/stack-and-queue/README.md
