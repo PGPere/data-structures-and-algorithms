@@ -1,4 +1,5 @@
 from stack_and_queue.node import Node
+from stack_and_queue.invalid_operation_error import InvalidOperationError
 from stack_and_queue.linked_list import LinkedList
 
 
@@ -28,7 +29,7 @@ class Stack:
         # EXCEPTION if stack is empty
 
         if self.top is None:
-            return
+            raise InvalidOperationError
 
         node_temp = self.top
 
@@ -40,7 +41,11 @@ class Stack:
         return node_temp.value
 
     def peek(self):
-        pass
+
+        if self.top is None:
+            raise InvalidOperationError
+
+        return self.top.value
 
     def is_empty(self):
 
