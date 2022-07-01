@@ -7,9 +7,8 @@ representing whether or not the brackets in the string are balanced
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/9fc0545ae591881c411622651b2298dad760dee4/stack-queue-animal-shelter/Screen%20Shot%202022-06-29%20at%2010.03.41%20PM.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/1558a59bfba5cff1caa79218404891eeb27616a3/stack-queue-brackets/Code%20Challenge%2013.png)
 
 ## Approach & Efficiency
 
-Need to finish code. WIP
-
+Use a queue to compare open and closing bracket combinations to a dictionary.

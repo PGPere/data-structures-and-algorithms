@@ -32,7 +32,8 @@ class Queue:
     def dequeue(self):
 
         if self.front is None:
-            raise InvalidOperationError
+            # raise InvalidOperationError
+            return False
 
         front = self.front
 
