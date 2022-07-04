@@ -11,3 +11,4 @@ The shelter operates using a first-in, first-out approach. Implement two methods
 ## Approach & Efficiency
 
 My approach is to create an Animal Shelter Class with a enqueue and dequeuue methods.  The dequeue method will go through the queue until it finds the preferred animal between a cat or a dog (only).  The dequeue includes a conditional for identiying requested preference.  If no preference is found in queue, then null is returned.
+

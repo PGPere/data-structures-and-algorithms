@@ -6,7 +6,7 @@ Implement a Queue using two Stacks. Create a new class called pseudo code. Do no
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/864b8fc840695c317e85f61bb3f92a061471fa29/array-binary-search/Code%20Challenge%203.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/77b7c525a19ca1a262e49839babf6254d64e47b9/stack-queue-pseudo/Screen%20Shot%202022-06-20%20at%209.49.07%20PM.png)
 
 ## Approach & Efficiency
 
