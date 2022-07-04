@@ -48,3 +48,6 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
   
 - Please find below the link to the README for Code Challenge #11 - stack-queue-pseudo 
   https://github.com/PGPere/data-structures-and-algorithms/tree/main/stack-queue-pseudo#readme
+  
+- Please find below the link to the README for Code Challenge #12 - stack-queue-animal-shelter 
+ https://github.com/PGPere/data-structures-and-algorithms/blob/main/stack-queue-animal-shelter/README.md
