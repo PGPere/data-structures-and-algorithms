@@ -6,8 +6,9 @@ The shelter operates using a first-in, first-out approach. Implement two methods
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/9fc0545ae591881c411622651b2298dad760dee4/stack-queue-animal-shelter/Screen%20Shot%202022-06-29%20at%2010.03.41%20PM.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/afc71ad79e8ecf0f3db1b969c910852f99b797a6/stack-queue-animal-shelter/Code%20Challenge%2012.png)
 
 ## Approach & Efficiency
 
-My approach is to create two queues to identify if Cat or Dog is available
+My approach is to create an Animal Shelter Class with a enqueue and dequeuue methods.  The dequeue method will go through the queue until it finds the preferred animal between a cat or a dog (only).  The dequeue includes a conditional for identiying requested preference.  If no preference is found in queue, then null is returned.
+
