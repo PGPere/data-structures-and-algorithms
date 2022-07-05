@@ -51,3 +51,6 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
   
 - Please find below the link to the README for Code Challenge #12 - stack-queue-animal-shelter 
  https://github.com/PGPere/data-structures-and-algorithms/blob/main/stack-queue-animal-shelter/README.md
+ 
+- Please find below the link to the README for Code Challenge #12 - stack-queue-brackets
+ https://github.com/PGPere/data-structures-and-algorithms/blob/eeb2538717d65371b39035ef9d29a78852870a3d/stack-queue-brackets/README.md
