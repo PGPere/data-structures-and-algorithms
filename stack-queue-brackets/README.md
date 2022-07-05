@@ -7,7 +7,7 @@ representing whether or not the brackets in the string are balanced
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/1558a59bfba5cff1caa79218404891eeb27616a3/stack-queue-brackets/Code%20Challenge%2013.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/91a093173073d975d8e5068dcf50bb3ad4919208/stack-queue-brackets/README.md)
 
 ## Approach & Efficiency
 
