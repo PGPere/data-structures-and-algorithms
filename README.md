@@ -55,5 +55,5 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
 - Please find below the link to the README for Code Challenge #13 - stack-queue-brackets
  https://github.com/PGPere/data-structures-and-algorithms/blob/eeb2538717d65371b39035ef9d29a78852870a3d/stack-queue-brackets/README.md
  
- - Please find below the link to the README for Code Challenge #15 - trees
+ - Please find below the link to the README for Code Challenge #15 and #16 - trees
  https://github.com/PGPere/data-structures-and-algorithms/blob/ea25e5b57f0de02db8d22ae2558fe8f29930ed12/trees/README.md
