@@ -6,8 +6,8 @@
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/f242ddf643057bc2828acaad3e03da9636a64ecd/linked-list-zip/Screen%20Shot%202022-06-13%20at%208.44.33%20PM.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/24b7fcc52d0fab860b60fcd906b575b2dfbfbe75/tree-breadth-first/Code%20Challenge%2017%20(1).png)
 
 ## Approach & Efficiency
 
-TBD
+Use breadth first to travserse tree and queue to append into list. Time and space is O(n).
