@@ -6,8 +6,12 @@
 
 ## Links and Resources
 
-#### Web Scrapper code => 
+#### Web Scrapper Link
 
-#### URL Scrapped => <https://en.wikipedia.org/wiki/Pittsford,_New_York>
+<https://github.com/PGPere/data-structures-and-algorithms/tree/main/scraper>
+
+#### URL Used for Testing
+
+<https://en.wikipedia.org/wiki/Pittsford,_New_York>
 
 #### Resources: GitHub, BeatifulSoup Library
