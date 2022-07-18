@@ -1,5 +1,4 @@
-from tree_breadth_first.binary_tree import Node
-
+# from tree_breadth_first.binary_tree import Node
 
 class Queue:
     """
@@ -56,3 +55,10 @@ class Queue:
             return True
 
         return False
+
+
+class Node:
+
+    def __init__(self, value, next_node=None):
+        self.value = value
+        self.next_node = next_node
