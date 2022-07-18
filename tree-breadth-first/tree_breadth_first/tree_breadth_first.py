@@ -4,13 +4,19 @@ from tree_breadth_first.queue import Queue
 
 def breadth_first(tree):
 
-    q = []
+    q = Queue()
+    output = []
 
-    q.enqueue(tree.root.value)
+    if tree.root is None:
+        return output
+
+    q.enqueue(tree.root)
 
     while not q.is_empty():
 
-        tree.root.value = q.dequeue()
+        tree.root = q.dequeue()
+
+        output.append(tree.root.value)
 
         if tree.root.left is not None:
 
@@ -19,3 +25,5 @@ def breadth_first(tree):
         if tree.root.right is not None:
 
             q.enqueue(tree.root.right)
+
+    return output
