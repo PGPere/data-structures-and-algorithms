@@ -18,7 +18,7 @@
 
 ## Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/24b7fcc52d0fab860b60fcd906b575b2dfbfbe75/tree-breadth-first/Code%20Challenge%2017%20(1).png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/0bb1ee1d2128f7dc8344c9c94ebf4cc9d755a523/tree-fizz-buzz/fizz_buzz_tree.png)
 
 ## Approach & Efficiency
 

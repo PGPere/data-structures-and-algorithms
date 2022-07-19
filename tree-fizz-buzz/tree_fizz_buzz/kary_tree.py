@@ -1,4 +1,4 @@
-from tree_fizz_buzz.tree_fizz_buzz import Queue
+from tree_fizz_buzz.queue import Queue
 
 
 class KaryTree:
