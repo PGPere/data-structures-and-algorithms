@@ -58,6 +58,9 @@ https://github.com/PGPere/data-structures-and-algorithms/blob/main/array-insert-
  - Please find below the link to the README for Code Challenge #15 and #16 - trees
  https://github.com/PGPere/data-structures-and-algorithms/blob/ea25e5b57f0de02db8d22ae2558fe8f29930ed12/trees/README.md
  
+  - Please find below the link to the README for Code Challenge #17 - tree-breadth-first
+ https://github.com/PGPere/data-structures-and-algorithms/tree/main/tree-breadth-first#readme
+ 
  - Please find below the link to the README for Code Challenge #18 - tree-fizz-buzz
  https://github.com/PGPere/data-structures-and-algorithms/blob/fb181e0d622328f5db6da58fa8efcd18dbbe0644/tree-fizz-buzz/README.md
 
