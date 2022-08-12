@@ -9,22 +9,24 @@ class Merge:
 
         if n > 1:
 
-            # Finding the mid of the array
+            # Find the mid
             mid = len(arr)//2
 
-        # Dividing the array elements
+        # Divide the array
             L = arr[:mid]
 
         # into 2 halves
             R = arr[mid:]
 
-        # Sorting the first half
+        # Sort the first half
             Merge.merge_sort(L)
 
-        # Sorting the second half
+        # Sort the second half
             Merge.merge_sort(R)
 
+        # Merge the two halves
             Merge.merge(L, R, arr)
+        return arr
 
     def merge(L, R, arr):
 
@@ -49,5 +51,11 @@ class Merge:
             arr[k] = R[j]
             j += 1
             k += 1
-
         return arr
+
+
+if __name__ == "__main__":
+
+    list = [8, 4, 23, 42, 16, 15]
+
+    Merge.merge_sort(list)
