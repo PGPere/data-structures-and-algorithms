@@ -9,4 +9,4 @@ The hash table challenge includes defining the Hashtable class with the followin
 
 ## Approach & Efficiency
 
-My approach was to 
+Hash tables have a time complexity of O(1), meaning they are extremely efficient. 
