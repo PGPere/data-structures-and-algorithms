@@ -40,7 +40,7 @@ class Hashtable:
         index = self.hash(key)
 
         if self._buckets[index] is None:
-            raise False
+            return False
         else:
             for kvp in self._buckets[index]:
                 if kvp[0] == key:
