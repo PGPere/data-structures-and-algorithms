@@ -10,4 +10,4 @@ Return: string
 
 ## Approach & Efficiency
 
-Use various hash-functions
+My approach takes advantage of the set function and a simple conditional to find the first word that repeats
