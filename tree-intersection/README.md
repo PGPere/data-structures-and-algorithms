@@ -9,8 +9,8 @@
 
 # Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/5731ad1f6503823c2779b7d2d102bd6b573bf3d1/trees/Code%20Challenge%2016.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/2d15ada6bc243700f353715cfb017576f463880e/tree-intersection/Code%20Challenge%2032.png)
 
 ## Approach & Efficiency
 
-### Binary tree has O(n) complexity for time & space.
+### Binary tree has O(n) complexity for time & space
