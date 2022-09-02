@@ -12,4 +12,4 @@ Write a function that LEFT JOINs two hashmaps into a single data structure.
 
 ## Approach & Efficiency
 
-Hash tables have a time complexity of O(1), meaning they are extremely efficient
+Hash tables have a time complexity of O(n)
