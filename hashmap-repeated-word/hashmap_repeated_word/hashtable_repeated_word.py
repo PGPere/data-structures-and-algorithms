@@ -13,8 +13,6 @@ def first_repeated_word(sentence):
 
     new_sentence = re.sub(r'[^\w\s]', '', sentence)
 
-    print(new_sentence)
-
     temp = set()
 
     for word in new_sentence.split():
