@@ -9,8 +9,8 @@
 
 # Whiteboard Process
 
-![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/2d15ada6bc243700f353715cfb017576f463880e/tree-intersection/Code%20Challenge%2032.png)
+![alt text](https://github.com/PGPere/data-structures-and-algorithms/blob/b9cd6f3f52c850080693d3bd258fb20d871470b7/tree-intersection/Code%20Challenge%2032.png)
 
 ## Approach & Efficiency
 
-### Binary tree has O(n) complexity for time & space
+### Hashtable has O(1) complexity for time & space
