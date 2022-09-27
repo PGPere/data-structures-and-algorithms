@@ -44,7 +44,7 @@ def test_size():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_add_edge():
     g = Graph()
     apple = g.add_node("apple")
@@ -67,7 +67,7 @@ def test_bouquet():
     assert neighbors[0].weight == 10
 
 
-# @pytest.mark.skip("TODO")
+@pytest.mark.skip("TODO")
 def test_add_edge_interloper_start():
 
     graph = Graph()
