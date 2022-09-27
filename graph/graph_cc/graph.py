@@ -14,11 +14,13 @@ class Graph:
         return newVertex
 
     def add_edge(self, from_v, to_v, weight=0):
-        if from_v not in self.vertex:
-            self.add_node(from_v)
-        if to_v not in self.vertex:
-            self.add_node(to_v)
-        self.vertex[from_v].addNeighbor(self.vertex[to_v], weight)
+        temp = []
+        if from_v in self.vertex.neighbors and to_v in self.vertex.neighbors:
+            if from_v not in self.vertex:
+                self.add_node(from_v)
+            if to_v not in self.vertex:
+                self.add_node(to_v)
+            self.vertex[from_v].addNeighbor(self.vertex[to_v], weight)
 
     def get_nodes(self):
         return self.vertex.keys()
@@ -59,7 +61,7 @@ class Vertex:
 
     def __init__(self, value):
         self.value = value
-        self.neighbors = {}
+        self.neighbors = []
 
     def addNeighbor(self, neighbor, weight=0):
         self.neighbors[neighbor] = weight
